@@ -106,7 +106,7 @@ export default function App(){
         </div>
 
         <center>
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vSPhpgKP9vBgDdq7zPMApRVqw7-E_UgAO4weDhZIHOhUI3fzvEPBpIdyfK-8H6pUg/pub?embedded=true" style={{height : "100vh", width : "70%", minWidth : "800px", border: "5px solid black"}}></iframe>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vSPhpgKP9vBgDdq7zPMApRVqw7-E_UgAO4weDhZIHOhUI3fzvEPBpIdyfK-8H6pUg/pub?embedded=true" style={{height : "100vh", width : "800px", maxWidth : "96%", border: "5px solid black"}}></iframe>
         </center>
         </div>
         </section>
