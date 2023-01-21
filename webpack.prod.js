@@ -8,7 +8,7 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, 'build'),
     publicPath: 'auto',
     assetModuleFilename: 'assets/[name]-[hash][ext][query]',
-    filename: 'app.js'
+    filename: 'App.js'
   }
 }
 );

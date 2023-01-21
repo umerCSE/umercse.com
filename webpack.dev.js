@@ -8,7 +8,7 @@ module.exports = merge(common, {
   output: {
     path: path.resolve(__dirname, 'public/assets'),
     publicPath: 'auto',
-    filename: 'app.js'
+    filename: 'App.js'
   },
   devServer: {
     static: {
