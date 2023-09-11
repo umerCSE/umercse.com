@@ -4,16 +4,22 @@ export default function Header(){
 	return (
 		<header id="header" className="fixed-top">
     <div className="container-fluid d-flex justify-content-between align-items-center">
-      <h1 className="logo me-auto me-lg-0"><a href="index.html">UmerCSE</a></h1>
-      {/* <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
+      <h1 className="logo me-auto me-lg-0">
+      <a href="index.html" className="logo">
+        <img src="assets/img/favicon.png" alt="UmerCSE" className="img-fluid" />
+        <span className='px-2'>Umer Sheikh</span>
+        </a>
+      </h1>
 
       <nav id="navbar" className="navbar order-last order-lg-0">
         <ul>
           <li><a className="" href="#">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#resume">Resume</a></li>
+          <li><a href="#facts">Facts</a></li>
+          <li><a href="#testimonials">Recommendations</a></li>
           {/* <li><a href="#portfolio">Portfolio</a></li> */}
-          <li><a href="mailto:umercse@hotmail.com" className='btn-about'>Hire Me</a></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle"></i>
       </nav>

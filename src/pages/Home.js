@@ -4,12 +4,12 @@ export default function App(){
 
 	return (
 		<SinglePage>
-        <section id="hero" className="d-flex align-items-start ">
+        <section id="hero" className="d-flex align-items-center ">
             <div className="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
             <h1>Umer Sheikh</h1>
-            <h2>I am a professional software engineer <br></br> from Lahore, Pakistan</h2>
-            <h2><small>I am passionate Open Source developer, <br></br> technically skilled with <br></br> Laravel, React, AWS <br></br> and many more..</small></h2>
-            <a href="#about" className="btn-about">About me</a>
+            <h2><small><i class="bi bi-pin-map-fill pr-2 text-primary"></i>Lahore, Pakistan</small></h2>
+            <h2>Open Source developer, skilled with Laravel &amp; VueJS, having hands-on Cloud Administration</h2>
+            <a href="mailto:umercse@hotmail.com" className="btn-about">Hire Me</a>
             </div>
         </section>
         <section id="about" className="about">
@@ -17,36 +17,38 @@ export default function App(){
 
         <div className="section-title">
           <h2>About</h2>
-          <h4 className='text-left lead'>I am a young enthusiastic IT professional having over 5 years of work experience. I have good command over <code>Laravel, React JS</code> as well as vanilla PHP & JavaScript and other open-source technologies.</h4>
         </div>
 
         <div className="row">
           <div className="col-lg-4">
-            <img src="assets/img/about-umercse.jpg" className="img-fluid" alt="" />
+            <img src="assets/img/umercse_casual_outdoor.jpg" className="img-fluid" alt="" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Software Engineer | PHP / JavaScript Developer</h3>
-            <h4 className='text-left lead'>I am very energetic in my field and always love to help and focus on solutions and like to work in a competitive environment.</h4>
+            <h3>Software Engineer / PHP &amp; JS Developer</h3>
+            <h4 className='text-left lead'>I am a young enthusiastic IT professional having around 5 years of work experience in industry. 
+            I have good command over <strong>Laravel, React JS</strong> as well as Core PHP, Vanilla JavaScript &amp; other open-source technologies.</h4>
+            <h4 className='text-left lead'>Along with programming capabilities, I have a very strong knowledge of Software Engineering, i.e. Web Application Development and Third party APIs Integration.</h4>
+            <h3>Interpersonal Skills</h3>
+            <h4 className='text-left lead'>I am very energetic in my field and always love to help and focus on solutions and like to work on technically challenging goals.</h4>
+            <h3>Industrial Experience</h3>
+            <h4 className='text-left lead'>Already I have been working in a diverse range of <strong>Business Domains</strong>:<br></br> including <strong>Customer Relation Management, Project Management, Social Networking, Real Estate Booking, Sports, Human Resource Management, E-Commerce &amp; Event Management</strong> <br></br>from Analysis, Design and creating of development plans to solving any kind of development based problem.</h4>
+            <h3>More Details</h3>
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Birthday:</strong> August 1994</li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>Degree:</strong> BS Software Engineering</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>LinkedIn:</strong><a href='https://www.linkedin.com/in/cseumer'> @cseumer</a></li>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Phone:</strong> +92 335 983 5006</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>City:</strong> Lahore, Pakistan </li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Age:</strong> 28</li>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Degree:</strong> BS Software Engineering</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Email:</strong> umercse@hotmail.com</li>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Open to work:</strong> Yes</li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>Phone:</strong> +92 335 983 5006</li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>Available for work:</strong> Yes</li>
                 </ul>
               </div>
             </div>
-            <h4 className='text-left lead'>Along with programming capabilities, I have a very strong knowledge of Software Engineering, i.e. Web Application Development and Third party APIs Integration.</h4>
-            <h4 className='text-left lead'>Already I have been working in a diverse range of <strong>Business Domains</strong>:<br></br> including <code>Customer Relation Management, Project Management, Social Networking, Real Estate Booking, Sports, Human Resource Management, E-Commerce &amp; Event Management</code> <br></br>from Analysis, Design and creating of development plans to solving any kind of development based problem.</h4>
           </div>
         </div>
 
@@ -64,28 +66,44 @@ export default function App(){
 
         <div className="row skills-content">
 
-          <div className="col-lg-6">
+        <div className="col-md-3 col-1">
+            
+        </div>
+
+          <div className="col-md-6">
             <div className="progress">
-              <span className="skill">PHP/Laravel/WordPress CMS<i className="val">80%</i></span>
+              <span className="skill">Backend Developement (Laravel &amp; MySql)<i className="val">Very Good</i></span>
+              <div className="progress-bar-wrap">
+                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width:"85%"}}></div>
+              </div>
+            </div>
+            <div className="progress">
+              <span className="skill">Software Architecture (OOP, DSA, Core PHP, Vanilla JS, REST APIs, Sockets)<i className="val">Good</i></span>
               <div className="progress-bar-wrap">
                 <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:"80%"}}></div>
               </div>
             </div>
             <div className="progress">
-              <span className="skill">HTML/CSS/JQuery<i className="val">90%</i></span>
+              <span className="skill">Cloud Administration (AWS, DigitalOcean, Azure, GCP)<i className="val">Above Average</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style={{width:"80%"}}></div>
+                <div className="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:"70%"}}></div>
               </div>
             </div>
             <div className="progress">
-              <span className="skill">JavaScript/ReactJS/AngularJS/VueJs<i className="val">60%</i></span>
+              <span className="skill">Frontend Development (VueJS &amp; ReactJS)<i className="val">Above Average</i></span>
+              <div className="progress-bar-wrap">
+                <div className="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width:"70%"}}></div>
+              </div>
+            </div>
+            <div className="progress">
+              <span className="skill">Frontend Design (HTML, CSS JS &amp; JQuery)<i className="val">Average</i></span>
               <div className="progress-bar-wrap">
                 <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{width:"60%"}}></div>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-md-3 col-1">
             
           </div>
 
@@ -100,13 +118,15 @@ export default function App(){
             
         <div className="section-title">
           <h2>Resume</h2>
-          <p>
-            View Online below or <a className="btn-about text-left" href="https://docs.google.com/document/d/1LWMsTaJIMFmZuciMXtkS2klvBpYkdG92/edit?usp=sharing&ouid=111821119675624252718&rtpof=true&sd=true" target={"_blank"}> Download </a> from Google Drive
-          </p>
         </div>
-
         <center>
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vSPhpgKP9vBgDdq7zPMApRVqw7-E_UgAO4weDhZIHOhUI3fzvEPBpIdyfK-8H6pUg/pub?embedded=true" style={{height : "100vh", width : "800px", maxWidth : "96%", border: "5px solid black"}}></iframe>
+          <small className="d-block py-2">
+            <a className="btn-about text-left" href="https://docs.google.com/document/d/1LWMsTaJIMFmZuciMXtkS2klvBpYkdG92/edit?usp=sharing&ouid=111821119675624252718&rtpof=true&sd=true" target={"_blank"}><i class="bi bi-cloud-arrow-down-fill"></i> Download </a> from Google Drive
+          </small>
+          <iframe src="https://docs.google.com/document/d/e/2PACX-1vSPhpgKP9vBgDdq7zPMApRVqw7-E_UgAO4weDhZIHOhUI3fzvEPBpIdyfK-8H6pUg/pub?embedded=true" style={{textAlign: "center", height: "auto", minHeight : "70vh", minWidth : "67%", maxWidth: "98vw", border: "5px solid black"}}></iframe>
+          <small className="d-block py-2">
+            <a className="btn-about text-left" href="https://docs.google.com/document/d/1LWMsTaJIMFmZuciMXtkS2klvBpYkdG92/edit?usp=sharing&ouid=111821119675624252718&rtpof=true&sd=true" target={"_blank"}><i class="bi bi-cloud-arrow-down-fill"></i> Download </a> from Google Drive
+          </small>
         </center>
         </div>
         </section>
@@ -118,7 +138,7 @@ export default function App(){
 
         <div className="section-title">
           <h2>Facts</h2>
-          <p>In addition to working with companies. I also worked for my own clients from Pakistan, Germany and Netherlands. Here are cummulative approximate figures.</p>
+          <p>In addition to working with software houses. I also worked for with my clients from Pakistan, Germany and Netherlands directly. Here are approximate figures.</p>
         </div>
 
         <div className="row counters">

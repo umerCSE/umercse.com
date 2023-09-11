@@ -53,7 +53,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background:rgba(255,255,255, 0.6);
 }
 
 #preloader:before {
@@ -148,7 +148,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  height: 40px;
 }
 
 @media (max-width: 992px) {
@@ -175,6 +175,18 @@ h6 {
 
 .header-social-links a:hover {
   color: #34b7a7;
+}
+
+.header-social-links a.skype:hover {
+  color:#00aff0;
+}
+
+.header-social-links a.github:hover {
+  color:#171515;
+}
+
+.header-social-links a.linkedin:hover {
+  color:#0072B1;
 }
 
 /*--------------------------------------------------------------
@@ -208,7 +220,7 @@ h6 {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #888888;
+  color: #222222;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -428,37 +440,46 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+section {
   width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  height: auto;
+  min-height: 98vh;
   background-size: cover;
-  box-shadow: inset 0 0 0 2000px rgba(245, 245, 245, 0.6);
 }
 
-#hero .container {
-  padding-top: 70px;
+section:nth-child(2n) {
+  background-color: #eee;
+}
+#hero{
+  background: url("../img/hero-bg-regional.jpg") top right;
+  box-shadow: inset 0 0 0 2000px rgba(145, 145, 145, 0.6);
+}
+
+section .container {
+  padding: 8vh 1em;
   position: relative;
 }
 
 @media (max-width: 992px) {
-  #hero .container {
+  /* #hero .container {
     padding-top: 58px;
-  }
+  } */
 }
 
 #hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
-  color: #222222;
+  padding-bottom:2vh;
+  color:#111;
+  /* text-shadow: #222222 1px 1px; */
 }
 
 #hero h2 {
-  color: #6f6f6f;
-  margin: 10px 0 0 0;
+  color:#111;
+  padding-bottom:5vh;
   font-size: 22px;
+  /* font-weight: bold; */
 }
 
 #hero .btn-about {
@@ -471,7 +492,7 @@ h6 {
   padding: 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
-  margin-top: 30px;
+  margin-top: 10vh;
   color: #fff;
   background: #34b7a7;
 }
@@ -489,7 +510,7 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    /* background: rgba(255, 255, 255, 0.8); */
     position: absolute;
     bottom: 0;
     top: 0;
@@ -633,16 +654,18 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  min-height: 60px;
+  height: auto;
   display: block;
   background: none;
   border-radius: 0;
+  padding: 1em !important;
 }
 
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  text-transform: none;
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -655,7 +678,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f3f3f3;
+  background: #444444;
 }
 
 .skills .progress-bar {
@@ -668,6 +691,9 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
+.facts .counters {
+  padding-top: 10vh !important;
+}
 .facts .counters span {
   font-size: 48px;
   display: block;
@@ -1313,4 +1339,12 @@ section {
 /** Personalized styles starting here **/
 .text-left{
   text-align: left !important;
+}
+
+.text-primary{
+  color: #34b7a7 !important;
+}
+
+.pr-2{
+ padding-right: 0.8em;
 }
