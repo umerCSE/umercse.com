@@ -9,7 +9,7 @@ export default function App(){
             <h1>Umer Sheikh</h1>
             <h2><small><i class="bi bi-pin-map-fill pr-2 text-primary"></i>Lahore, Pakistan</small></h2>
             <h2>Open Source developer, skilled with Laravel &amp; VueJS, having hands-on Cloud Administration</h2>
-            <a href="mailto:umercse@hotmail.com" className="btn-about">Hire Me</a>
+            <a href="mailto:hire@umercse.com" className="btn-about">Hire Me</a>
             </div>
         </section>
         <section id="about" className="about">
