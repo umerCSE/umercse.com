@@ -28,7 +28,7 @@ export default function Header(){
         <a href="https://wa.me/+923359835006" className="whatsapp px-2"><h3><i class="bi bi-whatsapp"></i> +923359835006</h3></a>
         <a href="mailto:hire@umercse.com" className="email px-2"><h3><i class="bi bi-envelope-at-fill"></i> hire@umercse.com</h3></a>
         <a href="skype:muhammad_umer_sheikh1994" className="skype px-2"><h3><i className="bi bi-skype"></i> Skype</h3></a>
-        <a href="https://www.linkedin.com/in/cseumer" className="linkedin px-2"><h3><i className="bi bi-linkedin"></i> LinkedIn</h3></a>
+        <a href="https://www.linkedin.com/in/UmerSE" className="linkedin px-2"><h3><i className="bi bi-linkedin"></i> LinkedIn</h3></a>
         <a href="https://www.github.com/umercse" className="github px-2"><h3><i className="bi bi-github"></i> GitHub</h3></a>
       </div>
     </div>
