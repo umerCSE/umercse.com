@@ -37,13 +37,13 @@ export default function App(){
               <div className="col-lg-6">
                 <ul>
                   <li><i className="bi bi-rounded-right"></i> <strong>Degree:</strong> BS Software Engineering</li>
-                  <li><i className="bi bi-rounded-right"></i> <strong>LinkedIn:</strong><a href='https://www.linkedin.com/in/cseumer'> @cseumer</a></li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>LinkedIn:</strong><a href='https://www.linkedin.com/in/UmerSE'> @UmerSE</a></li>
                   <li><i className="bi bi-rounded-right"></i> <strong>City:</strong> Lahore, Pakistan </li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li><i className="bi bi-rounded-right"></i> <strong>Email:</strong> umercse@hotmail.com</li>
+                  <li><i className="bi bi-rounded-right"></i> <strong>Email:</strong> hire@umercse.com</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Phone:</strong> +92 335 983 5006</li>
                   <li><i className="bi bi-rounded-right"></i> <strong>Available for work:</strong> Yes</li>
                 </ul>
